@@ -1,0 +1,7 @@
+<form method="post" action="/rent">
+    <input type="hidden" name="userId" th:value="${userId}">
+    CPU: <input type="number" name="cpu"><br>
+    RAM (MB): <input type="number" name="ramMb"><br>
+    Disk (GB): <input type="number" name="diskGb"><br>
+    <button type="submit">Rent VPS</button>
+</form>
